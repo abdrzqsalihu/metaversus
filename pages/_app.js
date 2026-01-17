@@ -1,7 +1,7 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-import "../styles/globals.css";
-import LenisScroll from "../components/LenisScroll";
+import '../styles/globals.css';
+import LenisScroll from '../components/LenisScroll';
 
 const MyApp = ({ Component, pageProps }) => (
   <>

@@ -1,15 +1,16 @@
-"use client";
+'use client';
 
-import { useEffect } from "react";
-import Lenis from "lenis";
+import { useEffect } from 'react';
+import Lenis from 'lenis';
 
+// eslint-disable-next-line react/function-component-definition
 export default function LenisScroll() {
   useEffect(() => {
     const lenis = new Lenis();
 
-    lenis.on("scroll", (e) => {
-      //   console.log(e);
-    });
+    // lenis.on('scroll', (e) => {
+    //   console.log(e);
+    // });
 
     function raf(time) {
       lenis.raf(time);
